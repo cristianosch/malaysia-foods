@@ -38,6 +38,7 @@
 }
 .product_item_pic{
 	height: 200px;
+	width: 300px;
 	position: relative;
 	overflow: hidden;
 	border-radius: 6px;
