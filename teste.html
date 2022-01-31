@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,7 @@
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">  
     <link href="css/ui.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <title>Teste</title>
@@ -14,44 +15,43 @@
 <body>    
    
 <!--__________________________________LOGO______________________________-->
-    <header class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header_logo">
-                        <a href="introducao.html"><span>Malaysia </span>Foods</a>
-                    </div>
-                </div>
-     <!--_________________________________MENU____________________________-->
-                <div class="col-lg-6 py-4">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid">
-                          <a class="navbar-brand active" href="index.html">Home</a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                              <a class="nav-link" aria-current="page" href="salgado.html">Salgado</a>
-                              <a class="nav-link" href="doces.html">Doces</a>
-                              <a class="nav-link" href="bebidas.html">Bebidas</a>
-                              <a class="nav-link" href="especiais.html">Especiais</a>
-                              <a class="nav-link" href="carrinho.html">Carrinho</a>
-                              <a class="nav-link" href="contact.html">Contacto</a>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                </div>
-    <!--_________________________________Login / Carrinho_______________________-->
-                <div class="col-lg-3">
+<header class="header">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="header_logo">
+					<a href="introducao.html"><span>Malaysia </span>Foods</a>
+				</div>
+			</div>
+ <!--_________________________________MENU____________________________-->
+			<div class="col-lg-6 py-4">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container-fluid">
+					  <a class="navbar-brand active" href="index.html">teste</a>
+					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+						  <a class="nav-link" aria-current="page" href="salgado.html">Salgado</a>
+						  <a class="nav-link" href="doces.html">Doces</a>
+						  <a class="nav-link" href="bebidas.html">Bebidas</a>
+						  <a class="nav-link" href="carrinho.html">Carrinho</a>
+						  <a class="nav-link" href="contact.html">Contacto</a>
+						</div>
+					  </div>
+					</div>
+				  </nav>
+			</div>
+<!--_________________________________Login / Carrinho_______________________-->
+				<div class="col-lg-3">
                     <div class="header_right">
 						<a href="carrinho.html" class="widget-header pl-3 ml-3">
 							<div class="icon icon-sm"><i class="fa fa-shopping-cart"></i></div>
-							<span class="badge badge-pill badge-danger notify">0</span>
+							<span class="badge badge-pill badge-danger notify">2</span>
                         <div class="header_right_auth">
-                            <a href="login.html">Login /</a>
-                            <a href="registro.html">Register</a>
+                            <a href="login.html">Login </a>
+                            <a href="registro.html">Registrar-se</a>
                         </div>
                     </div>
                 </div>
@@ -60,17 +60,17 @@
     </header>
     <!--_______________________________CATEGORIES_____________________________-->
 
-    <section class="categories">
+    <section class="categories p-5">
         <div class="container-fluid">            
             <div class="row">                
-                <div class="col-lg-6 p-0">
+                <div class="col-lg-6">
                     <div class="categories_item categories_large_item">
                         <div class="card">
                             <img src="img/capa.png" alt="" class="img-fluid">
                         </div>
                         <div class="categories_text">
                             <h1>Salgados</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum autem deleniti vel, quos consectetur labore suscipit quibusdam. Possimus molestias reiciendis commodi necessitatibus quas hic doloribus aliquid cumque aperiam nesciunt?</p>
+                            <p>8 Pratos</p>
                             <a href="salgado.html">Saber mais</a>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
 
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12 py-5">
+                        <div class="col-lg-6 col-md-6 col-12 ">
                             <div class="categories_item">
                                 <div class="transformation1">
                                     <img src="img/doce/pao-doce.png" alt="" class="img-fluid">
@@ -104,7 +104,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 col-md-6 col-12 py-5">
+                        <div class="col-lg-6 col-md-6 col-12 ">
                             <div class="categories_item">
                                 <div class="transformation">
                                     <img src="img/doce/kui-muih.png" alt="" class="img-fluid">
@@ -174,7 +174,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-12">
 					<div class="footer_about">
 						<div class="footer_logo">
-							<a href="index.html"><span>Malaysia </span>Foods</a>
+							<a href="index.html"><span>Malaysian </span>Foods</a>
 						</div>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
 						<div class="footer_social">

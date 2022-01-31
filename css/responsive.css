@@ -1,84 +1,190 @@
-.mobile-block {
-  display: none;
+/*____________________RESPONSIVE_________________*/
+
+@media only screen and (max-width: 1484px) and (min-width: 1214px) {
+	.categories{
+    position:relative;
+    overflow: hidden;
 }
 
-@media (max-width: 1200px) {
-  /* tablet devices */
-}
-@media (max-width: 992px) {
-  /* small tablet devices */
-  .slider-main .item-slide {
-    height: auto;
-  }
-
-  .table-shopping-cart tr td:first-child {
-    width: 250px;
-  }
-  .table-shopping-cart .itemside .info {
-    padding: 0;
-  }
-  .table-shopping-cart .itemside .aside {
-    display: none;
-  }
-}
-@media all and (max-width: 768px) {
-  /* mobile devices */
-  .mobile-block {
-    display: block;
-  }
-
-  .mobile-hide {
-    display: none;
-  }
-
-  .section-header .logo {
-    max-height: 40px;
+.categories .categories_item{
+    position: relative;
+    height:auto;
     width: auto;
-  }
-  .section-header .header-main .brand-wrap {
-    margin-bottom: 1rem;
-    display: inline-block;
-  }
-  .section-header .header-main .search {
-    margin-bottom: 1rem;
-  }
-
-  .item-feature {
-    margin-bottom: 20px;
-  }
-
-  .mobile-order-first {
-    order: -1;
-  }
-
-  .mobile-order-1 {
-    order: 1;
-  }
-
-  .mobile-order-2 {
-    order: 2;
-  }
-
-  .mobile-order-3 {
-    order: 3;
-  }
-
-  .mobile-py {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .mobile-pb {
-    padding-bottom: 20px;
-  }
-
-  .mobile-pt {
-    padding-top: 20px;
-  }
-
-  .navbar-expand .navbar-collapse {
-    flex-direction: column;
-  }
+    display: flex;
+    align-items: center;     
+              
 }
 
-/*# sourceMappingURL=responsive.css.map */
+.categories .categories_large_item .card img{     
+  opacity: 0.8;
+}	
+
+.icon-sm{
+  margin-top: 20px;
+  margin-left: 80px;
+
+}
+
+.badge{  
+  margin-top: 20px;
+  margin-left: 80px;
+}
+}
+
+
+@media only screen and (max-width: 1214px) and (min-width: 1000px) {
+
+  .icon-sm{
+    margin-top: 50px;
+    margin-left: 80px;
+
+  }
+
+  .badge{  
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+	.categories{
+    position:relative;
+    overflow: hidden;
+}
+
+.categories .categories_item{
+    position: relative;
+    height:auto;
+    width: auto;
+    display: flex;
+    align-items: center;     
+         
+}
+
+.categories .categories_large_item .card img{  
+  opacity: 0.8;
+}	
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px){	
+  .icon-sm{
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+
+  .badge{  
+    margin-top: -0px;
+    margin-left: 0px;
+  }
+	
+	.categories{
+    position:relative;
+    overflow: hidden;
+}
+
+.categories .categories_item{
+    position: relative;
+    height:auto;
+    width: auto;
+    display: flex;
+    align-items: center;     
+             
+}
+
+.categories .categories_large_item .card img{  
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 720px) and (min-width: 400px){	 
+
+  .icon-sm{
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+
+  .badge{  
+    margin-top: -0px;
+    margin-left: 0px;
+  }
+	
+	.categories{
+    position:relative;
+    overflow: hidden;
+}
+
+.categories .categories_item{
+    position: relative;
+    height:auto;
+    width: auto;
+    display: flex;
+    align-items: center;     
+             
+}
+
+.categories .categories_large_item .card img{  
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 400px) and (min-width: 280px){
+  
+  .icon-sm{
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+
+  .badge{  
+    margin-top: -0px;
+    margin-left: 0px;
+  }
+
+  .categories{
+    position:relative;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+.categories h1{
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 18px;
+  
+}
+
+.categories h4{
+  font-size: 15px;
+}
+
+
+.categories p{
+  font-size: 10px;
+}
+
+.categories .categories_item{
+    position: relative;
+    height:auto;
+    width: auto;
+    display: flex;
+    align-items: left;    
+              
+}
+
+.categories .categories_large_item {
+  height: -300px;
+}
+
+.categories .categories_text a {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.categories .categories_text a:after{
+  bottom: 10px;
+}
+
+.categories .categories_text p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.categories .categories_large_item .card img{  
+  width: auto;
+}
+}
