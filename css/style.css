@@ -111,6 +111,17 @@ li{
     display: none;
 }
 
+/*______________VIDEO_________________*/
+
+video{
+    position: relative;
+    justify-content: center;
+    max-width: auto;
+    height: auto;
+}
+
+
+
 /*______________CATEGORIES_____________*/
 
 .categories{
