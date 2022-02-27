@@ -25,51 +25,52 @@
 			</div>
  <!--_________________________________MENU____________________________-->
  <nav class="navbar navbar-expand-lg navbar-light">
-	<div class="container-fluid">	  
-	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		<div class="navbar-nav">
-		  <a class="nav-link" aria-current="page" href="salgado.html">Salgado</a>
-		  <a class="nav-link" href="doces.html">Doces</a>
-		  <a class="nav-link" href="bebidas.html">Bebidas</a>
-		  <a class="nav-link" href="carrinho.html">Carrinho</a>
-		  <a class="nav-link" href="contact.html">Contacto</a>
-		</div>
-	  </div>
-	</div>
+    <div class="container-fluid">							  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="salgado.html">Salgado</a>
+          <a class="nav-link" href="doces.html">Doces</a>
+          <a class="nav-link" href="bebidas.html">Bebidas</a>
+          <a class="nav-link" href="carrinho.html">Carrinho</a>
+          <a class="nav-link" href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
   </nav>
 
 <!--_________________________________Login / Carrinho_______________________-->
 
 <div class="col-sm">
-	<div class="header_right">
-		<a href="carrinho.html" class="widget-header">
-			<div class="icon icon-sm"><i class="fa fa-shopping-cart"></i></div>
-				<span class="badge badge-pill badge-danger notify">2</span>                        
-				<a href="login.html">Login </a>
-				<a href="registro.html">Registrar-se
-				</a>                      
-			</div>
-		</div>
-	</div>
+    <div class="header_right">
+        <a href="carrinho.html" class="widget-header">
+            <div class="icon icon-sm"><i class="fa fa-shopping-cart"></i></div>
+            <span class="badge badge-pill badge-danger notify">2</span>                        
+            <a href="login.html">Login </a>
+            <a href="registro.html">Registrar-se
+            </a>                      
+    </div>
 </div>
+</div>
+</div>
+
 </header>
 
 
 <!-- _______________________________PRODUCT________________________________ -->
 
-<div class="row">
+<div class="row py-5">
 	<aside class="col-lg-9">
     <div class="card">
         <table class="table table-borderless table-shopping-cart">
             <thead class="text-muted">
                 <tr class="small text-uppercase">
-                    <th scope="col">Product</th>
-                    <th scope="col" width="120">Qantidade</th>
+                    <th scope="col">Produto</th>
+                    <th scope="col" width="320">Quantidade</th>
                     <th scope="col" width="120">Preço</th>
-                    <th scope="col" class="text-right" width="200"> </th>
+                    <th scope="col" class="text-right" width="400"> </th>
                 </tr>
             </thead>
             <tbody>
@@ -102,7 +103,7 @@
 			                <small class="text-muted"> $13 com IVA </small> 
 		                </div> 
 	                </td>
-	                <td class="text-right"> 
+	                <td class="text-center"> 
 	                    <a href="" class="btn btn-danger"> Remove</a>
 	                </td>
                 </tr>
@@ -136,7 +137,7 @@
 			            <small  class="text-muted"> €6,50 com IVA </small>  
 		            </div> 
 	            </td>
-	                <td class="text-right"> 
+	                <td class="text-center"> 
 	                    <a href="" class="btn btn-danger"> Remove</a>
 	                </td>
                 </tr>
@@ -170,13 +171,14 @@
 			                <small class="text-muted"> € 4 com IVA</small> 
 		                </div> 
 	                </td>
-	                <td class="text-right"> 
+	                <td class="text-center"> 
 		                <a href="" class="btn btn-danger"> Remove</a>
 	                </td>
                 </tr>
             </tbody>
         </table>
     </div> 
+
 	</aside> 
 	<aside class="col-lg-3">
 		<div class="card">
@@ -207,77 +209,6 @@
 </div> 
 </section>
 
-<!--___________________________Endereço________________________-->
-
-<article class="card mb-4">
-    <div class="card-body">
-        <h4 class="card-title mb-4">Informações de Contacto</h4>
-        <form action="">
-            <div class="row">
-                <div class="form-group col-sm-6">
-                    <label>Primeiro Nome</label>
-                    <input type="text" placeholder="Type here" class="form-control">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label>Ultimno Nome</label>
-                    <input type="text" placeholder="Digite Aqui" class="form-control">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label>Telefone</label>
-                    <input type="text" value="+351" class="form-control">
-                </div>
-                <div class="form-group col-sm-6">
-                    <label>Email</label>
-                    <input type="email" placeholder="examplo@gmail.com" class="form-control">
-                </div>
-            </div> 
-        </form>
-    </div> 
-    </article>     
-    
-    <article class="card mb-4">
-    <div class="card-body">
-        <h4 class="card-title mb-4">Informações de entrega</h4>
-        <form action="">        
-    
-            <div class="row">
-                    <div class="form-group col-sm-6">
-                        <label>Pais*</label>
-                        <select name="" class="form-control">
-                            <option value="active">Portugal</option>
-                            <option value="">Espanha</option>
-                            <option value="">Franca</option>
-                            <option value="">Italia</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <label>Distrito*</label>
-                        <input type="text" placeholder="Digite Aqui" class="form-control">
-                    </div>
-                    <div class="form-group col-sm-8">
-                        <label>Rua*</label>
-                        <input type="text" placeholder="Digite Aqui" class="form-control">
-                    </div>
-                    <div class="form-group col-sm-4">
-                        <label>Predio</label>
-                        <input type="text" placeholder="" class="form-control">
-                    </div>
-                    <div class="form-group col-sm-4">
-                        <label>Casa / Apartamento </label>
-                        <input type="text" placeholder="Digite Aqui" class="form-control">
-                    </div>
-                    <div class="form-group col-sm-4">
-                        <label>Codigo Postal</label>
-                        <input type="text" placeholder="" class="form-control">
-                    </div>
-                    <div class="form-group col-sm-4">
-                        <label>Informação adicional</label>
-                        <input type="text" placeholder="" class="form-control">
-                    </div>
-            </div> 	
-        </form>
-    </div> 
-    </article> 
 
 
 <!--___________________________FOOTER__________________________-->
